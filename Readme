@@ -1,0 +1,20 @@
+# RAG Bedrock Chroma
+
+## Descripción
+Un sistema de Recuperación Aumentada por Generación (RAG) que utiliza AWS Bedrock y Chroma para la generación de texto basada en la recuperación de datos.
+
+## Instalación
+1. Clona el repositorio:
+   ```bash
+   git clone <repo-url>
+   ```
+2. Instala las dependencias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+## Ejecución
+Ejecuta el script principal:
+```bash
+python scripts/run_rag.py

@@ -1,0 +1,6 @@
+boto3
+chromadb
+nltk
+pyyaml
+python-dotenv
+slack_bolt
