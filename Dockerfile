@@ -10,8 +10,5 @@ COPY . .
 
 RUN pip install  --default-timeout=100 -r requirements.txt
 
-# CMD predeterminado para ejecutar el servidor Streamlit
-# CMD ["streamlit", "run", "main.py"]
-
 # CMD predeterminado para ejecutar el Bot
-CMD ["python", "jiraai.py"]
+CMD ["python", "src/bot.py"]
