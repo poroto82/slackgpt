@@ -1,10 +1,6 @@
 version: '3'
 
 services:
-  # redis:
-  #   image: redis
-  #   ports:
-  #     - 6379:6379
 
   gpt:
     build: ./
@@ -12,5 +8,5 @@ services:
       - ./:/app
       - $HOME/.aws:/root/.aws
     environment:
-      - AWS_PROFILE=sandbox-AI_Developer 
-    command: bash -c "while true; do echo hello; sleep 2; done"
+      - AWS_PROFILE=SANDBOX-AI_Developer 
+    

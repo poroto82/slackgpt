@@ -2,8 +2,8 @@
 import chromadb
 import boto3
 import uuid
-from coherence_embedding import CoherenceEmbedding
-from text_utils import extract_keywords_nltk
+from src.coherence_embedding import CoherenceEmbedding
+from src.text_utils import extract_keywords_nltk
 
 class DataManager:
     def __init__(self,logger, model_id, chroma_db_path, collection_name="default"):

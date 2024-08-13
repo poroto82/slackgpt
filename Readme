@@ -12,5 +12,10 @@ Un sistema de Recuperación Aumentada por Generación (RAG) que utiliza AWS Bedr
    ```bash
    pip install -r requirements.txt
    ```
+3. Modificar .env
 
-
+4. Run
+  ```bash
+   python bot.py
+   ```
+   

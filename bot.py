@@ -7,9 +7,9 @@ import traceback
 from dotenv import load_dotenv
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
-from data_manager import DataManager
-from anthropic_text_generator import TextGenerator
-from text_utils import  tokenize_text
+from src.data_manager import DataManager
+from src.anthropic_text_generator import TextGenerator
+from src.text_utils import  tokenize_text
 
 
 def process_query(logger, query, retriever, generator, thread_history=None):
