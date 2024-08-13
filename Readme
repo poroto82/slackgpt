@@ -14,7 +14,3 @@ Un sistema de Recuperación Aumentada por Generación (RAG) que utiliza AWS Bedr
    ```
 
 
-## Ejecución
-Ejecuta el script principal:
-```bash
-python scripts/run_rag.py
